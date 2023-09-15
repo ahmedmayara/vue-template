@@ -6,5 +6,5 @@ const config = {
   bracketSpacing: true,
   bracketSameLine: false,
   singleAttributePerLine: true,
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: [require("prettier-plugin-tailwindcss")],
 };
